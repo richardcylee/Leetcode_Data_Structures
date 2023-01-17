@@ -1,7 +1,7 @@
 public class MediumMaximumSubarray 
 {
     //solution is Kadane's algorithm, this is a particularly difficult medium question
-    //MaxSum(index) = Max(MaxSum(index-1)+arra[index],0) 
+    //MaxSum(index) = Max(MaxSum(index-1)+array[index],0) 
     // ^ MaxSum at a particular index is the greater of MaxSum of previous index plus current index, or 0
     public int maxSubArray(int[] nums) 
     {
